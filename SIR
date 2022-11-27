@@ -1,0 +1,6 @@
+>>> import model
+>>> m = model.SIR()
+>>> m.run()
+>>> m.plot()
+>>> import model
+>>> m = model.SIR(rateSI=0.05)
